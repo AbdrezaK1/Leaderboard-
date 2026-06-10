@@ -1,0 +1,35 @@
+{
+  "name": "node-gis-wrapper",
+  "version": "0.0.2",
+  "description": "A node module for easy interaction with the EXPA API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIESECGermany/node-gis-wrapper.git"
+  },
+  "keywords": [
+    "node",
+    "expa",
+    "wrapper",
+    "api"
+  ],
+  "author": "Lukas Ehnle (https://github.com/ocjojo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AIESECGermany/node-gis-wrapper/issues"
+  },
+  "homepage": "https://github.com/AIESECGermany/node-gis-wrapper#readme",
+  "peerDependencies": {
+    "request": "^2.34"
+  },
+  "dependencies": {
+    "request": "^2.79.0",
+    "yapl": "ocjojo/YAPL"
+  },
+  "devDependencies": {
+    "request-debug": "^0.2.0"
+  }
+}
