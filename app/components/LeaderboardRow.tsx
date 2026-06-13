@@ -15,7 +15,7 @@ const LC_COLORS = [
 ];
 
 const LC_LOGOS: Record<string, string> = {
-  BABEZ: "/lc-logos/lc-babez.png",
+  BABEZ: "/lc-logos/log-babez.png",
   BENAK: "/lc-logos/lc-benak.jpg",
   BEJAIA: "/lc-logos/lc-bejaia.jpg",
   BLIDA: "/lc-logos/lc-blida.jpg",
