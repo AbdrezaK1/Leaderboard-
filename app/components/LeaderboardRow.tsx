@@ -22,7 +22,7 @@ const LC_LOGOS: Record<string, string> = {
   CONSTATINE: "/lc-logos/lc-constantine.jpg",
   CONSTANTINE: "/lc-logos/lc-constantine.jpg",
   TLEMCEN: "/lc-logos/lc-tlemcen.jpg",
-  ORAN: "/lc-logos/lc-oran.png",
+  ORAN: "/lc-logos/lc-oran.PNG",
 };
 
 interface Props {
