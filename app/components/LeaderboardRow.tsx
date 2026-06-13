@@ -18,7 +18,7 @@ const LC_LOGOS: Record<string, string> = {
   BABEZ: "/lc-logos/lc-babez.jpg",
   BENAK: "/lc-logos/lc-benak.jpg",
   BEJAIA: "/lc-logos/lc-bejaia.jpg",
-  BLIDA: "/lc-logos/lc-blida.png",
+  BLIDA: "/lc-logos/lc-blida.jpg",
   CONSTATINE: "/lc-logos/lc-constantine.jpg",
   CONSTANTINE: "/lc-logos/lc-constantine.jpg",
   TLEMCEN: "/lc-logos/lc-tlemcen.jpg",
