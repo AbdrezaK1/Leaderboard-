@@ -72,8 +72,8 @@ export default function Leaderboard({ data, error, isDemo = false, lastUpdated }
 
   return (
     <main className="min-h-screen bg-[#07120f] text-white">
-      <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 py-6 sm:px-6 lg:px-8">
-        <section className="grid flex-1 overflow-hidden rounded-[28px] border border-white/10 bg-[#f7f1e4] text-[#13231f] shadow-2xl lg:grid-cols-[0.9fr_1.1fr]">
+      <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-2 py-3 sm:px-6 sm:py-6 lg:px-8">
+        <section className="grid flex-1 overflow-hidden rounded-[20px] border border-white/10 bg-[#f7f1e4] text-[#13231f] shadow-2xl sm:rounded-[28px] lg:grid-cols-[0.9fr_1.1fr]">
           <div className="relative flex min-h-[280px] flex-col justify-between overflow-hidden bg-[#081b16] p-6 text-white sm:p-8">
             <div className="absolute inset-x-0 top-0 h-2 bg-[#00a984]" />
             <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-[#ffbf2f]/20 blur-3xl" />
@@ -118,7 +118,7 @@ export default function Leaderboard({ data, error, isDemo = false, lastUpdated }
             </div>
           </div>
 
-          <div className="flex flex-col p-4 sm:p-6 lg:p-8">
+          <div className="flex min-w-0 flex-col p-3 sm:p-6 lg:p-8">
             <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b border-[#13231f]/10 pb-4">
               <div>
                 <p className="text-[10px] font-black uppercase tracking-[0.32em] text-[#00a984]">
@@ -141,7 +141,7 @@ export default function Leaderboard({ data, error, isDemo = false, lastUpdated }
               </div>
             )}
 
-            <div className="mb-2 grid grid-cols-[54px_1fr_92px] px-3 text-[10px] font-black uppercase tracking-[0.24em] text-[#13231f]/45">
+            <div className="mb-2 grid grid-cols-[36px_minmax(0,1fr)_64px] gap-2 px-2 text-[9px] font-black uppercase tracking-[0.18em] text-[#13231f]/45 sm:grid-cols-[54px_minmax(0,1fr)_92px] sm:gap-3 sm:px-3 sm:text-[10px] sm:tracking-[0.24em]">
               <span>Rank</span>
               <span>LC</span>
               <span className="text-right">Signups</span>
